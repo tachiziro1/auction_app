@@ -5,3 +5,5 @@
         <li><a href="/items/{{ $item->id }}">{{ $item->name }}</a></li>
     @endforeach
 </ul>
+<!-- 新規登録画面へジャンプする -->
+<a href="/items/create">出品する</a>
