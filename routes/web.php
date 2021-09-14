@@ -14,6 +14,4 @@ use App\Http\Controllers\ItemController;
 |
 */
 
-Route::get('/', 'ItemController@index');
-
 Route::resource('items', ItemController::class);
